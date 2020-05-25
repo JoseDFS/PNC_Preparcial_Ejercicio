@@ -30,7 +30,7 @@ public class MainController {
 	
 	
 	@RequestMapping("/inicio")
-	public ModelAndView initMain2() {
+	public ModelAndView initMain() {
 		ModelAndView mav = new ModelAndView();
 		Contribuyente contribuyente =new Contribuyente();
 		mav.addObject("contribuyente",  contribuyente);
